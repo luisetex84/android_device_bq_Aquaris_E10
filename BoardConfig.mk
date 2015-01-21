@@ -4,7 +4,7 @@ USE_CAMERA_STUB := true
 -include vendor/bq/Aquaris_E10/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
-TARGET_NO_BOOTLOADER := true
+#TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := MT8151
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -15,8 +15,7 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_BOOTLOADER_BOARD_NAME := Aquaris_E10
 
-BOARD_KERNEL_CMDLINE := console=ttyMT0,921600n1 vmalloc=496M slub_max_order=0 lcm=0-nt71397_fhd_dsi_vdo_truly fps=5558 bootprof.pl_t=4212 bootprof.lk_t=1734 printk.disable_uart=1 boot_reason=4 androidboot.serialno=VC002523 lcm=0-nt71397_fhd_dsi_vdo_truly fps=5558 bootprof.pl_t=4212 bootprof.lk_t=1734 printk.disable_uart=1 boot_reason=4 androidboot.serialno=VC002523
-BOARD_KERNEL_BASE := 0x10000000
+BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_PAGESIZE := 2048
 
 # fix this up by examining /proc/mtd on a running device
