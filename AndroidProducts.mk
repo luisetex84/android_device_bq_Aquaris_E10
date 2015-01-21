@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_Aquaris_E10.mk
+    $(LOCAL_DIR)/device_kaito.mk

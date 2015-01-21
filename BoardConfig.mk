@@ -34,7 +34,7 @@ TARGET_PREBUILT_KERNEL := device/bq/kaito/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 #PhilZ Touch build flags for MTK
-TARGET_COMMON_NAME := bq Aquaris_E10
+TARGET_COMMON_NAME := bq kaito
 BOARD_USE_MTK_LAYOUT := true
 BOARD_MTK_BOOT_LABEL := "/bootimg"
 BOARD_USE_NTFS_3G := false
