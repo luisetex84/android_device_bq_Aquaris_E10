@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/bq/kait_wifi/BoardConfigVendor.mk
+-include vendor/bq/kaito_wifi/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
 #TARGET_NO_BOOTLOADER := true
