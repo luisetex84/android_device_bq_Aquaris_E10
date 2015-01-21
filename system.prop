@@ -1,5 +1,5 @@
 #
-# system.prop for Aquaris_E10
+# system.prop for kaito_wifi
 #
 rild.libpath=/system/lib/mtk-ril.so
 rild.libargs=-d /dev/ttyC0

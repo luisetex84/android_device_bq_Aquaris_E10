@@ -27,14 +27,14 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x49c00000
 BOARD_FLASH_BLOCK_SIZE := 0x20000
 
 # Try to build the kernel
-#TARGET_KERNEL_CONFIG := cyanogenmod_Aquaris_E10_defconfig
+#TARGET_KERNEL_CONFIG := cyanogenmod_kaito_wifi_defconfig
 # Keep this as a fallback
 TARGET_PREBUILT_KERNEL := device/bq/kaito_wifi/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 #PhilZ Touch build flags for MTK
-TARGET_COMMON_NAME := bq Aquaris_E10
+TARGET_COMMON_NAME := bq kaito_wifi
 BOARD_USE_MTK_LAYOUT := true
 BOARD_MTK_BOOT_LABEL := "/bootimg"
 BOARD_USE_NTFS_3G := false
@@ -44,4 +44,4 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 #BATTERY_LEVEL_PATH := true
-BOARD_CUSTOM_BOOTIMG_MK := device/bq/Aquaris_E10/boot.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/bq/kaito_wifi/boot.mk
