@@ -3,11 +3,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 #$(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/bq/Aquaris_E10/Aquaris_E10-vendor.mk)
+$(call inherit-product-if-exists, vendor/bq/kaito_wifi/kaito_wifi-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/bq/Aquaris_E10/overlay
+DEVICE_PACKAGE_OVERLAYS += device/bq/kaito_wifi/overlay
 
-LOCAL_PATH := device/bq/Aquaris_E10
+LOCAL_PATH := device/bq/kaito_wifi
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else
@@ -20,8 +20,8 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_Aquaris_E10
-PRODUCT_DEVICE := Aquaris_E10
+PRODUCT_NAME := full_kaito_wifi
+PRODUCT_DEVICE := kaito_wifi
 
 #PhilZ Touch
 PRODUCT_COPY_FILES += \
