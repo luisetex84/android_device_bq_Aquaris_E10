@@ -28,7 +28,7 @@ BOARD_FLASH_BLOCK_SIZE := 0x20000
 # Try to build the kernel
 #TARGET_KERNEL_CONFIG := cyanogenmod_Aquaris_E10_defconfig
 # Keep this as a fallback
-TARGET_PREBUILT_KERNEL := device/bq/Aquaris_E10/kernel
+TARGET_PREBUILT_KERNEL := device/bq/kaito_wifi/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
