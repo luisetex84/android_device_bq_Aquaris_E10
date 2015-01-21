@@ -39,4 +39,4 @@ DEVICE_RESOLUTION := 1920x1200
 RECOVERY_SDCARD_ON_DATA := true
 BRIGHTNESS_SYS_FILE := "/sys/devices/platform/leds-mt65xx/leds/lcd-backlight"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
-BOARD_CUSTOM_BOOTIMG_MK := device/bq/Aquaris_E10/boot.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/bq/kaito/boot.mk
