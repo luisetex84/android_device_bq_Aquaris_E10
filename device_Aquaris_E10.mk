@@ -25,4 +25,4 @@ PRODUCT_DEVICE := Aquaris_E10
 
 #PhilZ Touch
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+    $(LOCAL_PATH)/recovery.fstab:recovery/root/fstab.mt8392
