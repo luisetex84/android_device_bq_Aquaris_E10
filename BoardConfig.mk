@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/bq/Aquaris_E10/BoardConfigVendor.mk
+-include vendor/bq/kaito/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
 #TARGET_NO_BOOTLOADER := true
@@ -29,7 +29,7 @@ BOARD_FLASH_BLOCK_SIZE := 0x20000
 # Try to build the kernel
 #TARGET_KERNEL_CONFIG := cyanogenmod_Aquaris_E10_defconfig
 # Keep this as a fallback
-TARGET_PREBUILT_KERNEL := device/bq/Aquaris_E10/kernel
+TARGET_PREBUILT_KERNEL := device/bq/kaito/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
