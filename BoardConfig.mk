@@ -26,7 +26,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x49c00000
 BOARD_FLASH_BLOCK_SIZE := 0x20000
 
 # Try to build the kernel
-#TARGET_KERNEL_CONFIG := cyanogenmod_Aquaris_E10_defconfig
+#TARGET_KERNEL_CONFIG := cyanogenmod_kaito_defconfig
 # Keep this as a fallback
 TARGET_PREBUILT_KERNEL := device/bq/kaito/kernel
 
