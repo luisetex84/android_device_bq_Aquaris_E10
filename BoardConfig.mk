@@ -26,7 +26,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x49c00000
 BOARD_FLASH_BLOCK_SIZE := 0x20000
 
 # Try to build the kernel
-#TARGET_KERNEL_CONFIG := cyanogenmod_Aquaris_E10_defconfig
+#TARGET_KERNEL_CONFIG := cyanogenmod_kaito_wifi_defconfig
 # Keep this as a fallback
 TARGET_PREBUILT_KERNEL := device/bq/kaito_wifi/kernel
 
@@ -39,4 +39,4 @@ DEVICE_RESOLUTION := 1920x1200
 RECOVERY_SDCARD_ON_DATA := true
 BRIGHTNESS_SYS_FILE := "/sys/devices/platform/leds-mt65xx/leds/lcd-backlight"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
-BOARD_CUSTOM_BOOTIMG_MK := device/bq/Aquaris_E10/boot.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/bq/kaito_wifi/boot.mk
