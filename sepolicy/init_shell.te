@@ -1,0 +1,5 @@
+allow init_shell thermal:dir { getattr search };
+allow init_shell thermal:file { read open };
+allow init_shell thermald:dir { getattr search };
+allow init_shell thermald:file { read open };
+

@@ -1,0 +1,5 @@
+allow shell thermal:dir { getattr search };
+allow shell thermal:file { read open };
+allow shell thermald:dir { getattr search };
+allow shell thermald:file { read open };
+

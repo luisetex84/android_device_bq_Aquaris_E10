@@ -1,0 +1,5 @@
+allow init thermal:dir { read open };
+allow init thermal:file { read open };
+allow init thermal:process sigkill;
+allow init thermald:process sigkill;
+
