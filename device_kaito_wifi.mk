@@ -19,10 +19,19 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_kaito_wifi
 PRODUCT_DEVICE := kaito_wifi
+
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)/rootdir/root/init.kaito_wifi.rc:root/init.kaito_wifi.rc \
+		$(LOCAL_PATH)/rootdir/root/init.protect.rc:root/init.protect.rc \
+		$(LOCAL_PATH)/rootdir/root/init.modem.rc:root/init.modem.rc \
+		$(LOCAL_PATH)/rootdir/root/factory_init.rc:root/factory_init.rc \
+		$(LOCAL_PATH)/rootdir/root/fstab.kaito_wifi:root/fstab.kaito_wifi \
+		$(LOCAL_PATH)/rootdir/root/ueventd.kaito_wifi.rc:root/ueventd.waito_wifi.rc \
+		$(LOCAL_PATH)/rootdir/root/init.kaito_wifi.usb.rc:root/init.kaito_wifi.usb.rc
 
 #PhilZ Touch
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+
